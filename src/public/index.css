@@ -1,0 +1,200 @@
+* {
+    font-family: "Yandex Sans Text", sans-serif;
+}
+
+html {
+    background: #D6D6D6;
+}
+
+body {
+    margin: 100px auto 200px auto;
+    width: 900px;
+    border: solid 3px #000;
+}
+
+.container_title {
+    margin: 50px 0 100px 0;
+}
+
+.container_title  > p{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.container_info,
+.container_info-about,
+.container_info-skills,
+.container_info-skills_description,
+.container_info_courses,
+.container_info_extra-activities,
+.container_info_topics,
+.container_info_hopes {
+    padding: 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 50px 0;
+}
+
+.container_info_img {
+    padding: 20px;
+    box-sizing: content-box;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 3px #000;
+}
+
+.container_info_img_main {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_info_img_main_name {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.container_info_img_main_role {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.container_info-about,
+.container_info-skills,
+.container_info_courses,
+.container_info_extra-activities,
+.container_info_topics,
+.container_info_hopes {
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0 110px 70px 110px;
+}
+
+.container_info-about_title_rotate,
+.container_info-skills_title_rotate,
+.container_info_courses_title_rotate,
+.container_info_extra-activities_title_rotate,
+.container_info_hopes_title_rotate,
+.container_info_topics_title_rotate {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    box-sizing: content-box;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+.container_info-about_description,
+.container_info-skills_description,
+.container_info_courses-description,
+.container_info_extra-activities-description,
+.container_info_topics > div,
+.container_info_hopes > div {
+    margin: 20px 10px 20px 20px;
+    font-weight: 200;
+    text-align: start;
+    border-left: solid 3px #000;
+    padding: 0 0 0 20px;
+}
+
+.container_info-skills_description {
+    align-items: start;
+    width: 100%;
+}
+
+.container_info-skills_description_lang > ul > li,
+.container_info-skills_description_tools > ul > li,
+.container_info_topics > div > ul > li,
+.container_info_hopes > div > ul > li {
+    display: flex;
+    width: 200px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+}
+
+.container_info-skills_description_lang > ul,
+.container_info-skills_description_tools > ul,
+.container_info_topics > div > ul,
+.container_info_hopes > div > ul {
+    padding: 0;
+}
+
+.container_info_courses-description,
+.container_info_topics > div,
+.container_info_hopes > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container_info_courses-description > div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0 0 10px 0;
+}
+
+.container_info_courses-description > div > a {
+    text-decoration: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 200;
+    color: #000;
+    opacity: 70%;
+}
+
+.container_info_extra-activities-description {
+    width: 100%;
+}
+
+.container_footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #D6D6D6;
+    border-top: solid 2px #000;
+}
+
+.container_footer > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_footer > div > img {
+    box-sizing: content-box;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px 0 0;
+}
+
+.container_footer > div > a {
+    outline: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.container_info_topics > div > ul > li,
+.container_info_hopes > div > ul > li {
+    margin: 0 0 20px 0;
+    width: 100%;
+}
+
+.container_info_topics > div > ul > li:last-of-type,
+.container_info_hopes > div > ul > li:last-of-type {
+    margin: 0;
+}

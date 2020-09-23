@@ -1,0 +1,4 @@
+# dependencies
+.idea
+*.log
+.DS_Store
